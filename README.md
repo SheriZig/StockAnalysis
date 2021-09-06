@@ -21,6 +21,7 @@ Overall, stocks performed better in 2017 than in 2018 with 92% of the stocks sho
 
 ## Analysis of Refactored Code Performance 
 Original Code 2017
+
 ![image](https://user-images.githubusercontent.com/88912539/132240984-cfd38723-dafd-4db4-bdda-d7687774a1ad.png) 
 
 
