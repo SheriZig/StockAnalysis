@@ -38,7 +38,7 @@ Refactored Code 2018
 ![image](https://user-images.githubusercontent.com/88912539/132241207-6e2ba630-5156-4daf-94e1-cee2c97d19b5.png)
 
 FOR Loop Refactored Code 
-````````````````
+```
 For i = 0 To 11
     
        tickerVolumes(i) = 0
@@ -86,7 +86,7 @@ For i = 0 To 11
         
     Next i
 
-```````````````
+```
 The images above represent the performance improvements that were realized with the refactored code. The original code contained an outer FOR loop with a Nested loop. The refactored code eliminated the Nested loop and consolidated to one significant loop. Using the index instead of the ticker also enhanced performance. Finally, the output was provided as a separate loop instead of being part of the outer FOR loop as was the case with the original code.  
 While the increased performance was only 2 seconds, the dataset only contained 3013 rows of data. The impact of the performance improvement will be fully realized when working with datasets of 1 million + rows of data. 
 
