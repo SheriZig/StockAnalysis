@@ -89,7 +89,7 @@ For i = 0 To 11
 ```````````````
 
 The images above represent the performance improvements that were realized with the refactored code. The original code contained an outer FOR loop with a Nested loop. The refactored code eliminated the Nested loop and consolidated to one significant loop. Using the index instead of the ticker also enhanced performance. Finally, the output was provided as a separate loop instead of being part of the outer FOR loop as was the case with the original code.  
-While the increased performance was only 1 second, the dataset only contained 3013 rows of data. The impact of the performance improvement will be fully realized when working with datasets of 1 million + rows of data. 
+While the increased performance was only 2 seconds, the dataset only contained 3013 rows of data. The impact of the performance improvement will be fully realized when working with datasets of 1 million + rows of data. 
 
 ###### Advantages/disadvantages of refactoring code: 
 1.	One advantage of refactoring code is to increase performance. As demonstrated with the refactoring the 2017 and 2018 stock data a small change in the code will yield demonstrable differences in performance. 
@@ -97,6 +97,6 @@ While the increased performance was only 1 second, the dataset only contained 30
 3.	A disadvantage to refactoring code in a production environment, is the cost in terms of time and effort. The benefit of the refactoring must outweigh the cost. A careful evaluation should be conducted to determine if refactoring is advantageous.  
 4.	A second disadvantage could be unintended consequences. Refactoring code may cause an unintended break in another part of the code introducing a bug. The may be unrealized at the time of refactoring and previously tested code may now contain a bug that will be sent to customers in the field. 
 There are advantages and disadvantages to refactoring existing code. Careful consideration should be given to the scope of the change and possible consequences to making meaningful changes. 
-In the case of the original VBA code that was refactored, it was time consuming to change the structure of the code to remove the nested FOR loop based on the provided dataset the improved performance was not significant. However, if the intent is to run the code on a dataset containing thousands or millions of rows of data any improvement to the performance will be exponential. 
+In the case of the original VBA code that was refactored, it was time consuming to change the structure of the code to remove the nested FOR loop based on the provided dataset. The improved performance was not significant as a matter of run time saved. However, if the intent is to run the code on a dataset containing thousands or millions of rows of data any improvement to the performance will be exponential. 
 
 
