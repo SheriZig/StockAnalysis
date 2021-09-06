@@ -26,12 +26,15 @@ Original Code 2017
 
 
 Refactored Code 2017
+
 ![image](https://user-images.githubusercontent.com/88912539/132241158-e2370ee3-b9ba-4916-8c04-e30c2ebd3f72.png)
 
 Original Code 2018
+
 ![image](https://user-images.githubusercontent.com/88912539/132241117-5b320a97-4599-44d5-a1d0-0681cd2727ec.png) 
 
 Refactored Code 2018
+
 ![image](https://user-images.githubusercontent.com/88912539/132241207-6e2ba630-5156-4daf-94e1-cee2c97d19b5.png)
 
 FOR Loop Refactored Code 
