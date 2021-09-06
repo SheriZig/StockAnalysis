@@ -7,7 +7,9 @@ After summarizing the data into a table with a tabular view, the stocks were eva
 
 ## Analysis of Stock Performance
 
-![image](https://user-images.githubusercontent.com/88912539/132240522-ac7e8678-2038-471f-b1d7-22bbbbb7299c.png)
+![image](https://user-images.githubusercontent.com/88912539/132240522-ac7e8678-2038-471f-b1d7-22bbbbb7299c.png)                 
+![image](https://user-images.githubusercontent.com/88912539/132240639-5d3842a4-7c9c-4ec8-aca1-1f7d979c467e.png)
+
 
 
 
